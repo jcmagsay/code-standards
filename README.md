@@ -43,27 +43,27 @@ The snippet below is a pretty standard template for pull requests used throughou
 ```
 
 ## PR Review Guidelines
-* Spend at least 5 minutes per file
-** Code review is the first place we can prevent bugs
-** Even a one line change can have a code style issue or logic error
-** Make sure you're being an effective code owner by actively participating in PR Review
+**Spend at least 5 minutes per file**
+* Code review is the first place we can prevent bugs
+* Even a one line change can have a code style issue or logic error
+* Make sure you're being an effective code owner by actively participating in PR Review
 
-* Put yourself in the code owner's shoes
-** How would you like your code to be reviewed?
-** Try to be sensitive
+**Put yourself in the code owner's shoes**
+* How would you like your code to be reviewed?
+* Try to be sensitive
 
-* Point out logic that may cause errors
-** No one is perfect, there will eventually be errors. Be sure to call out logic issues when seen. 
+**Point out logic that may cause errors**
+* No one is perfect, there will eventually be errors. Be sure to call out logic issues when seen. 
 
-* There is a time and a place for code abstraction
-** Keep in mind that work has been allocated to 
+**There is a time and a place for code abstraction**
+* Keep in mind that work has been allocated to 
 
-* Don't forget to use encouragement for great code
-** If you find some code really awesome while reviewing, make sure you metion it. 
-** Emojis 
+**Don't forget to use encouragement for great code**
+* If you find some code really awesome while reviewing, make sure you metion it. 
+* Emojis 
 
-* Suggestions should be formatted questions
-** Try to understand that the developer made a decision for a reason. As a reviewer, when making suggestions, it is important that we don't tell each other to rewrite the core functionality in the code unless it is absolutely necessary (security issue, error prone, etc)
+**Suggestions should be formatted questions**
+* Try to understand that the developer made a decision for a reason. As a reviewer, when making suggestions, it is important that we don't tell each other to rewrite the core functionality in the code unless it is absolutely necessary (security issue, error prone, etc)
 
 
 
