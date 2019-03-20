@@ -8,8 +8,12 @@ In each section there will be a short description of why the recommendation has 
 There are many ways to come to conclusions about coding styles and best practices. Typically an engineering team should follow the most up-to-date and community backed resources. 
 
 **Best Practice Resources**
-- Airbnb https://github.com/airbnb/javascript
-- Google https://google.github.io/styleguide/jsguide.html 
+- [Airbnb](https://github.com/airbnb/javascript)
+- [Google](https://google.github.io/styleguide/jsguide.html)
+- [tslint](https://www.npmjs.com/package/tslint)
+- [tslint-consistent-codestyle](https://www.npmjs.com/package/tslint-consistent-codestyle)
+- [tslint-eslint-rules](https://www.npmjs.com/package/tslint-eslint-rules)
+- [tslint-microsoft-contrib](https://www.npmjs.com/package/tslint-microsoft-contrib)
 
 
 # Pull Requests
