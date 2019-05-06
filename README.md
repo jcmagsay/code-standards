@@ -231,9 +231,11 @@ const getFruits = (fruits) => {
 const getFruitsFaster = (fruits) => {
   const startTime = performance.now();
 
-  const citrus = fruitObj.citrus;
-  const berry = fruitObj.berry;
-  const melon = fruitObj.melon;
+  const {
+    berry,
+    cirtus,
+    mellon,
+  } = fruitObj;
 
   const myFruit = {
     orange: citrus.orange,
