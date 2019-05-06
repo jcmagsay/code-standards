@@ -183,7 +183,7 @@ export interface BookInterface {
 
 # Performance Testing Code
 
-## Evaluation Performance
+## Performance: Avoid Multiple Evaluations of the same object
 ```
 
 const fruitObj = {
