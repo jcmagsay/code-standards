@@ -179,3 +179,88 @@ export interface BookInterface {
 # File & Variable Naming
 
 # Husky & Git Hooks
+
+
+# Performance Testing Code
+
+## Evaluation Performance
+```
+
+const fruitObj = {
+  citrus: {
+    orange: "orange",
+    lemon: "lemon",
+    lime: "lime",
+    cumquat: "cumquat",
+  },
+  berry: {
+    strawberry: "strawberry",
+    blueberry: "blueberry",
+    raspberry: "raspberry",
+    blackberry: "blackberry",
+  },
+  melon: {
+    watermelon: "watermelon",
+    canteloupe: "canteloupe",
+  }
+};
+
+const getFruits = (fruits) => {
+  const startTime = performance.now();
+
+  const myFruit = {
+    orange: fruitObj.citrus.orange,
+    lemon: fruitObj.citrus.lemon,
+    lime: fruitObj.citrus.lime,
+    cumquat: fruitObj.citrus.cumquat,
+    strawberry: fruitObj.berry.strawberry,
+    blueberry: fruitObj.berry.blueberry,
+    raspberry: fruitObj.berry.raspberry,
+    blackberry: fruitObj.berry.blackberry,
+    watermelon: fruitObj.melon.watermelon,
+    canteloupe: fruitObj.melon.canteloupe,
+  };
+
+  console.log(myFruit);
+
+  const stopTime = performance.now();
+
+  console.log(`Performance Test: getFruits(): Difference ${stopTime - startTime}`);
+};
+
+const getFruitsFaster = (fruits) => {
+  const startTime = performance.now();
+
+  const citrus = fruitObj.citrus;
+  const berry = fruitObj.berry;
+  const melon = fruitObj.melon;
+
+  const myFruit = {
+    orange: citrus.orange,
+    lemon: citrus.lemon,
+    lime: citrus.lime,
+    cumquat: citrus.cumquat,
+    strawberry: berry.strawberry,
+    blueberry: berry.blueberry,
+    raspberry: berry.raspberry,
+    blackberry: berry.blackberry,
+    watermelon: melon.watermelon,
+    canteloupe: melon.canteloupe,
+  };
+
+  console.log(myFruit);
+
+  const stopTime = performance.now();
+
+  console.log(`Performance Test: getFruitsFaster(): Difference ${stopTime - startTime}`);
+};
+
+getFruits(fruitObj);
+
+getFruitsFaster(fruitObj);
+``` 
+### Results
+```
+Performance Test: getFruits(): Difference 0.2500000118743628
+Performance Test: getFruitsFaster(): Difference 0.14000001829117537
+```
