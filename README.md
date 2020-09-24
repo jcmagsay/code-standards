@@ -41,7 +41,7 @@ The snippet below is a pretty standard template for pull requests used throughou
 ### Any background context you want to provide?
 
 
-### Is there a tracking system that can be included?
+### Is there a ticket number related to this work?
 
 
 #### Screenshots
