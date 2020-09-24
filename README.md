@@ -91,7 +91,7 @@ Trailing commas make copy and pasting code much easier.
 ```
 
 ### Imports
-
+TODO: this section is not complete
 
 # JsDoc Comments
 JSDoc's purpose is to document the API of your JavaScript application or library. It is assumed that you will want to document things like modules, namespaces, classes, methods, method parameters, and so on. More information can be found @: http://usejsdoc.org
@@ -130,7 +130,7 @@ or
 enum TRAFFIC_LIGHT = {
   GREEN: "GREEN",
   YELLOW: "YELLOW",
-  RED: "RED",
+  RED,
 }
 ```
 
@@ -162,7 +162,7 @@ export interface BookInterface {
   /**
    * A collection of the book's chapters.
    *
-   * @type {Array<Chapter>}
+   * @member {Array<Chapter>} [type]
    */
   chapters: Array<Chapter>;
   
